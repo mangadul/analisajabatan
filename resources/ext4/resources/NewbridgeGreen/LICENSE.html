@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<h1>License Agreement</h1>
+
+<h2>Short version</h2>
+
+<p>To use this theme in a commercial environment, you must purchase a license from Newbridge Green. You can do this at the link below. </p>
+
+<p>This is a one off purchase, entitling you to use the themes as many times as you like in your products including reselling them to clients. You must not redistribute the theme by itself. You must not include the SASS files when including the theme in your project deliverables.</p>
+
+<p>If in doubt, <a href="mailto:info@newbridgegreen.com">contact us</a>.</p>
+
+<p><strong><a href="https://www.newbridgegreen.com/extjs/buy">Purchase License</a></strong></p>
+
+<h2>Long Version</h2>
+
+<p>THIS IS A LEGAL AGREEMENT BETWEEN YOU &quot;THE LICENSEE&quot; AND &quot;NEWBRIDGE GREEN LTD&quot;. USE, OR THE COPYING, OF ANY THEME OR PART THEREOF, FROM ANY METHOD, CONSTITUTES YOUR ACCEPTANCE OF THE TERMS OF THIS AGREEMENT. In consideration of the obligations, warranties and undertakings of the Licensee in this Agreement, and subject to and conditional upon their full and timely performance and observance, the company grants to the Licensee a non-transferable non-exclusive license to use the graphic images and source code (herein referred to as the &quot;Assets&quot;). The Assets may be accessed and used by the Licensee and up to FIVE other people employed by the Licensee, on a computer network or similar local network device. For sharing on larger networks, separate locations, or similar devices or with more than four other people, an upgrade license may be required.</p>
+
+<p>PERMITED USES
+The Licensee is permitted to: Use the Assets in the Licensee&#39;s personal, professional, internal, editorial and client projects including printed materials, advertisements, packaging, presentations, video, on-line, computer games or multimedia projects; Use the Assets for viewing purposes only and is not designed or intended for re-use in any on-line distribution system (including the Licensee&#39;s web page); You may make one copy of the Assets solely for backup or archival purposes or transfer the Assets to a single hard drive, provided that you keep the original and accompanying documentation in your possession; You may enter projects into contests, film festivals, publications and or exhibitions that use the Assets in the permitted listed methods.</p>
+
+<p>PROHIBITED USES
+The Licensee is not permitted to: Do anything not expressly permitted under the paragraph headed &quot;Permitted Uses&quot; above. Without prejudice to the generality of the above not to: Post any Assets on any electronic bulletin board, FTP, or file sharing programs; Put the Assets on-line in a downloadable format,; Use any backup copy for any purpose other than to replace an original copy if it is destroyed or becomes defective; Use or permit the use of the Assets, or any part thereof, as a trademark or service mark, or claim any proprietary rights of any sort in the Assets, or any part thereof; Sell, sublicense, distribute or otherwise grant rights or make available for use by others all or a portion of the Assets in form or formats designed or intended for re-use of the Assets. Use, or allowing anyone else to use any of the Assets to create pornographic, fraudulent, obscene, immoral, infringing, illegal, blasphemous or defamatory material. Using the Assets in a way not specifically permitted or prohibited by this agreement, without prior written consent from &quot;NEWBRIDGE GREEN LTD&quot; is a violation of Copyright law. This license is in force until it is terminated by &quot;NEWBRIDGE GREEN LTD&quot; pursuant to the provisions as to termination below. At termination, the Assets must be returned to &quot;NEWBRIDGE GREEN LTD&quot; immediately and any back-up copies must be destroyed forthwith.</p>
+
+<p>WARRANTIES OF THE LICENSEE
+The Licensee warrants and undertakes, confirms and agrees with &quot;NEWBRIDGE GREEN LTD&quot;: That all rights of a proprietary and copyright nature and title in and to the Assets are expressly acknowledged as the property of &quot;NEWBRIDGE GREEN LTD&quot; and subject only to the non-exclusive, non-transferable license contained in this Agreement, which does not confer any copyright or proprietary rights of any nature whatsoever on the Licensee aside from the uses specified and permitted in this Agreement. The Licensee shall ensure that all copies of the Assets published and distributed by the Licensee shall contain full and accurate copyright notices, credit attributions and acknowledgements that the copyright is retained in the works by &quot;NEWBRIDGE GREEN LTD&quot;, and that reproduction is permitted only under the limited license from &quot;NEWBRIDGE GREEN LTD&quot;. The Licensee shall give full particulars to &quot;NEWBRIDGE GREEN LTD&quot; as soon as the Licensee becomes aware of any actual or threatened claim by any third party in connection with the Assets. The Licensee shall retain total control and possession at all times of Assets and shall not allow the Assets to fall into the hands of third parties who are not licensed by this Agreement. The Licensee shall indemnify and keep fully indemnified &quot;NEWBRIDGE GREEN LTD&quot; from and against all actions, proceedings, claims, demands, costs (including any legal costs or expenses properly incurred and any compensation costs and disbursements paid by &quot;NEWBRIDGE GREEN LTD&quot; on the advice of their legal advisors to compromise or settle any claim), awards and damages arising directly or indirectly as a result of any breach or non-performance by the Licensee of any of the Licensee&#39;s undertakings, warranties or obligations under this Agreement. The Licensee warrants and undertakes not to assign or license the use of the Assets or any portion thereof for any purpose other than those purposes specifically agreed between &quot;NEWBRIDGE GREEN LTD&quot; and the Licensee under this Agreement. In particular, the Licensee may not loan, rent, hire or otherwise transfer or purport to transfer the right to use the Assets in any way to any other person or entity. The Licensee accepts and warrants that use of the Assets shall not infringe any third party rights, of any nature, and any liability for the infringement of third party rights, of whatsoever nature, shall rest with the Licensee.</p>
+
+<p>COPYRIGHT
+All Assets are owned by &quot;NEWBRIDGE GREEN LTD&quot; and are protected by Copyright law, and are bound by the laws in force in the United Kingdom (European Union). No title to or intellectual property rights to the Assets are transferred to you. &quot;NEWBRIDGE GREEN LTD&quot; retains all rights not expressly granted by this License Agreement. Trademarks shall be used in accordance with accepted trademark practice, including identification of trademark owner&#39;s name. Trademarks can only be used to identify printed or electronic output produced by the Assets. Such use of any trademark does not give you any rights of ownership in that trademark. Except as stated above, this License Agreement does not grant you any intellectual property rights in the Assets. Unpublished rights are reserved.</p>
+
+<p>LIMITED WARRANTY
+&quot;NEWBRIDGE GREEN LTD warrants, agrees and undertakes with the Licensee that: To the best of the knowledge of &quot;NEWBRIDGE GREEN LTD&quot;, the Assets are not defamatory, obscene or immoral, and do not infringe any rights of copyright or other intellectual property or proprietary rights of third parties, but no right of action shall accrue against &quot;NEWBRIDGE GREEN LTD&quot; in the event of the Assets being deemed or found to be defamatory, obscene or immoral or an infringement of third party rights. Furthermore, no claim or action of any sort can arise against &quot;NEWBRIDGE GREEN LTD&quot; in this Agreement for the use of these Assets and no liability can attach to &quot;NEWBRIDGE GREEN LTD&quot; for any acts, omissions or failures on the part of the Licensee to comply with the terms of this Agreement.</p>
+
+<p>TERMINATION
+It shall constitute repudiation by the Licensee of its rights and obligations under this Agreement if: The Licensee is in breach of any other term of this Agreement; Any of the Licensee&#39;s warranties or representations shall prove to have been incorrect;</p>
+
+<p>GOVERNING LAW AND GENERAL PROVISIONS
+This Agreement will be governed by the laws in force in the United Kingdom (European Union) excluding the application of its conflicts of law rules. This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. If any part of this Agreement is found void and unenforceable, it will not affect the validity of the balance of the Agreement, which shall remain valid and enforceable according to its terms. You agree that the Assets will be shipped, transferred or exported into any country or used in any manner prohibited by export administration legislation or any other export laws, restrictions or regulations.</p>
+
+</body>
+</html>

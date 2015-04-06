@@ -1,0 +1,150 @@
+body{
+    padding: 40px 0px 40px 0px;
+    margin: 0px;
+    font-family: Arial,Calibri, Tahoma;
+    -khtml-user-select: none; /* probably old webkit browsers, but new support it too */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; /* Webkit */
+	-moz-user-select: none;    /* Firefox */
+	-ms-user-select: none;     /* IE 10  */
+	/* Currently not supported in Opera but will be soon */
+	-o-user-select: none;
+	user-select: none;
+}
+
+h3{
+    width:100%;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+    margin: 0px 0px 5px 0px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#303030', endColorstr='#000000'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #303030,  #000); /* for firefox 3.6+ */
+    color: #ffffff;
+    height: 30px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.input-text{
+    font-size: 17px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 5px 0px 5px;
+    width:90%;
+    border: 1px solid #cccccc;
+}
+
+.input-button-black{
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 5px 0px 0px;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #303030,  #000); /* for firefox 3.6+ */    
+}
+
+.input-button-gray{
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 2px 0px 2px;
+    border: 1px solid #335E84;
+    color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDDDDD', endColorstr='#9B9B9B'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#5A96C0), to(#9B9B9B)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #5A96C0,  #9B9B9B); /* for firefox 3.6+ */    
+}
+
+.input-button-blue{
+    background: -webkit-gradient(linear, left top, left bottom, from(#5A96C0), to(#3A6C9F)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #5A96C0,  #3A6C9F); /* for firefox 3.6+ */    
+    border: 1px solid #335E84;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #9CC1DA;
+    color: #ffffff;
+    padding: 2px 0px 2px 0px;
+    text-shadow: 0.1em 0.1em #426D97;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.label-text {
+    font-size: 17px;
+    padding: 30px 5px 5px 5px;
+    margin: 10px 0px 0px 0px;
+    width:90%;
+    
+}
+
+.overlay {
+    position:fixed;
+    top:0; bottom:0; left:0; right:0;
+    margin:auto; 
+    height:100%; 
+    width:100%;
+    background: #000;
+    color: #ffffff;	
+    border: 1px solid #000;
+    z-index: 300;
+    opacity:0.4;
+    display: none;
+}
+	
+.header { 
+    top:0; bottom:0;  left:0; right:0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FABD5), to(#497CAE)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #6FABD5,  #497CAE); /* for firefox 3.6+ */
+    border-top: 1px solid #456F9A;
+    border-bottom: 1px solid #456F9A;
+    text-shadow: 0.1em 0.1em #426D97;
+    position: fixed;
+    height:40px;
+    width:100%;
+    color: #ffffff;
+    text-align: center;
+    margin:0px auto;
+    z-index: 200;
+}
+
+
+.footer { 
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FABD5), to(#497CAE)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #6FABD5,  #497CAE); /* for firefox 3.6+ */
+    border-top: 1px solid #456F9A;
+    border-bottom: 1px solid #456F9A;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em #426D97;
+    bottom:0;  left:0; right:0;
+    position: fixed;
+    height:40px;
+    width:100%;
+    margin:0px auto;
+    z-index: 200;
+}
+
+
+.table-active{
+    border-top: 1px solid #86B2D5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5494C5), to(#6FACD5)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #5494C5,  #6FACD5); /* for firefox 3.6+ */    
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em #4282B2;
+    font-size: 15px;
+}
+
+.table-deactive{
+    border-top: 1px solid #7B7B7B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#434343), to(#2D2D2D)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #434343,  #2D2D2D); /* for firefox 3.6+ */    
+    text-shadow: 0.1em 0.1em #1A1A1A;
+    font-weight: bold;
+    font-size: 15px;
+}

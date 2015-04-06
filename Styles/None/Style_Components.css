@@ -1,0 +1,226 @@
+/* CCSTheme v 3.x */
+
+.GridBasic { 
+	width: 100%;
+	}
+
+.FooterBasic td { 
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	background-color: #f7f7f7; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.FooterBasic a:link { 
+	color: #3662a5;
+	}
+
+.FooterBasic a:visited { 
+	color: #8a8a8a;
+	}
+
+.FooterBasic a:hover, .Footer a:active { 
+	color: #cc4141;
+	}
+
+.FooterBasic img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterBasic input {
+	vertical-align: middle;
+	}
+
+/* Calendar */
+
+.CalendarNone { 
+	width: 100%;
+	}
+
+.CalendarWeekdayNameNone{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #ececec; 
+	color: #000000;
+	}
+
+.CalendarWeekdayNameNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekdayNameNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekdayNameNone a:hover, .CalendarWeekdayName a:active{
+	color: #cc4141;
+	}
+
+.CalendarWeekendNameNone{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekendNameNone a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameNone a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameNone a:link, .CalendarWeekendName a:visited{
+	color: #cc4141;
+	}
+
+/* Calendar Day */
+.CalendarDayNone{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+.CalendarDayNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarDayNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarDayNone a:hover, .CalendarDay a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendNone{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	text-align: center;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekendNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekendNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekendNone a:hover, .CalendarWeekend a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Today */
+.CalendarTodayNone {
+	font-family: Arial; font-size: 80%;
+	border: 2px solid #777777; 
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+.CalendarTodayNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarTodayNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarTodayNone a:hover, .CalendarToday a:active {
+	color: #cc4141;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodayNone {
+	font-family: Arial; font-size: 80%;
+	border: 2px solid #777777;
+	text-align: center;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekendTodayNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekendTodayNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekendTodayNone a:hover, .CalendarWeekendToday a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDayNone{
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	background-color: #d7d7d7;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.CalendarSelectedDayNone a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDayNone a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDayNone a:hover, .CalendarSelectedDay a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorNone {
+	font-family: Arial; font-size: 80%;
+	padding: 3px;
+	background-color: #f7f7f7; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.CalendarNavigatorNone a:link {
+	color: #3662a5;
+	}
+
+.CalendarNavigatorNone a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarNavigatorNone a:hover, .CalendarNavigator a:active{
+	color: #cc4141;
+	}
+
+.CalendarNavigatorNone img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+.Sorter img {
+	border:0;
+}
+.Navigator img {
+	border:0;
+}

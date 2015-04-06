@@ -1,0 +1,53 @@
+/* Basic styling */
+/* Draw the lines */
+.ExtJSOrgChart .line {
+  height                : 20px;
+  width                 : 4px;
+}
+
+.ExtJSOrgChart .down {
+  background-color 		: black;	
+  margin 				: 0px auto;
+}
+
+.ExtJSOrgChart .top {
+  border-top          : 3px solid black;
+}
+
+.ExtJSOrgChart .left {
+  border-right          : 2px solid black;
+}
+
+.ExtJSOrgChart .right {
+  border-left           : 2px solid black;
+}
+
+/* node cell */
+.ExtJSOrgChart td {
+  text-align            : center;
+  vertical-align        : top;
+  padding               : 0;
+}
+
+/* The node */
+.ExtJSOrgChart .node {
+  background-color 		: #35363B;
+  display               : inline-block;
+  border-radius: 5px;
+  min-width                : 12em;
+  min-height                : 4em;
+  z-index 				: 10;
+  margin               : 0 5px;
+  vertical-align: middle;
+}
+
+/* jQuery drag 'n drop */
+
+.drag-active {
+  border-style			: dotted !important;
+}
+
+.drop-hover {
+  border-style			: solid !important;
+  border-color 			: #E05E00 !important;
+}

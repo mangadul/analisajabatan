@@ -1,0 +1,1113 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+.PageBgColorSandBeach {
+	background-color: #e6decf;
+	}
+
+.FormTitleBgColorSandBeach {
+	background-color: #3d84cc;
+	}
+
+.FormTitleFontColorSandBeach {
+	color: #ffffff;
+	}
+
+.CaptionBgColorSandBeach {
+	background-color: #ffe3b0;
+	}
+
+.CaptionFontColorSandBeach {
+	color: #000000;
+	}
+
+.DataBgColorSandBeach {
+	background-color: #f7f7f7;
+	}
+
+.AltDataBgColorSandBeach {
+	background-color: #fff6e6;
+	}
+
+.DataFontColorSandBeach {
+	color: #000000;
+	}
+
+.LinkColorSandBeach {
+	color: #0033cc;
+	}
+
+.VisitedLinkColorSandBeach {
+	color: #840000;
+	}
+
+.HoverLinkColorSandBeach {
+	color: #ff0000;
+	}
+
+.ColorBgButtonSandBeach {
+	background-color: #3d84cc;
+}
+
+.ColorFontButtonSandBeach {
+	color: #ffffff;
+}
+
+.ColorBgButtonPassiveSandBeach {
+	background-color: #93c9ff;
+}
+
+.ColorFontButtonPassiveSandBeach {
+	color: #ffffff;
+}
+
+
+
+.HeaderSandBeach {
+	width: 100%;
+	}
+
+.HeaderSandBeach th { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 2px;
+	background-image: url('Images/HeaderBg.gif'); color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	background-position: right top; padding-left: 8px;
+	}
+
+
+
+/*ie6*/
+* html body .HeaderSandBeach th {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.HeaderSandBeach a:link { 
+	color: #ffffff;
+	}
+
+.HeaderSandBeach a:visited { 
+	color: #ffffff;
+	}
+
+.HeaderSandBeach a:hover, .CaptionSandBeach a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeftSandBeach { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRightSandBeach { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeftSandBeach img{
+	width: 1px;
+	}
+
+.HeaderRightSandBeach img{
+	width: 9px;
+	}
+
+
+/* Grid Options */
+.GridSandBeach { 
+	border: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.CaptionSandBeach th { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+.CaptionSandBeach td { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+	}
+
+
+
+/*ie6*/
+* html body .CaptionSandBeach th, * html body .CaptionSandBeach td {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.CaptionSandBeach a:link { 
+	color: #000000;
+	}
+
+.CaptionSandBeach a:visited { 
+	color: #000000;
+	}
+
+.CaptionSandBeach a:hover, .CaptionSandBeach a:active { 
+	color: #ff0000;
+	}
+
+.CaptionSandBeach img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.CaptionSandBeach input {
+	vertical-align: middle;
+	}
+
+.RowSandBeach th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.RowSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+	
+
+
+/*ie6*/
+* html body .RowSandBeach th, * html body .RowSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+caption.RowSandBeach { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 1px solid #3d84cc; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body caption.RowSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.RowSandBeach a:link { 
+	color: #0033cc;
+	}
+
+.RowSandBeach a:visited { 
+	color: #840000;
+	}
+
+.RowSandBeach a:hover, .RowSandBeach a:active { 
+	color: #ff0000;
+	}
+
+.SeparatorSandBeach{
+	color: #3d84cc;
+	}
+
+.SeparatorSandBeach td{
+	height: 1px;
+	}
+
+
+.AltRowSandBeach th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRowSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff6e6; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .AltRowSandBeach th, * html body .AltRowSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.AltRowSandBeach a:link { 
+	color: #0033cc;
+	}
+
+.AltRowSandBeach a:visited { 
+	color: #840000;
+	}
+
+.AltRowSandBeach a:hover, .AltRowSandBeach a:active { 
+	color: #ff0000;
+	}
+
+.NoRecordsSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	background-color: #f7f7f7; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.FooterSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 1px solid #ffe3b0; border-left: 0px none;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .NoRecordsSandBeach td, * html body .FooterSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.FooterSandBeach a:link { 
+	color: #0033cc;
+	}
+
+.FooterSandBeach a:visited { 
+	color: #840000;
+	}
+
+.FooterSandBeach a:hover, .FooterSandBeach a:active { 
+	color: #ff0000;
+	}
+
+.FooterSandBeach img {
+	border: 0px;
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.FooterSandBeach input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.RecordSandBeach { 
+	border: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.ErrorSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	}
+
+
+
+/*ie6*/
+* html body .ErrorSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.ControlsSandBeach th { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.ControlsSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+.ControlsSandBeach .CaptionSandBeach th {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	font-weight: bold;
+	white-space: nowrap;
+	}	
+.BottomSandBeach td { 
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 1px solid #ffe3b0; border-left: 0px none;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .ControlsSandBeach th, * html body .ControlsSandBeach td, * html body .BottomSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.BottomSandBeach a:link { 
+	color: #0033cc;
+	}
+
+.BottomSandBeach a:visited { 
+	color: #840000;
+	}
+
+.BottomSandBeach a:hover, .CaptionSandBeach a:active { 
+	color: #ff0000;
+	}
+
+.BottomSandBeach img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.BottomSandBeach input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaptionSandBeach th{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #fff6e6; 
+	color: #000000;
+	}
+
+.GroupCaptionSandBeach td{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupCaptionSandBeach th, * html body .GroupCaptionSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupCaptionSandBeach a:link {
+	color: #000000;
+	}
+
+.GroupCaptionSandBeach a:visited{
+	color: #000000;
+	}
+
+.GroupCaptionSandBeach a:hover, .GroupCaptionSandBeach a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterSandBeach td{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border: 1px solid #ffe3b0; border-left: 0px none;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #ffe3b0; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .GroupFooterSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.GroupFooterSandBeach a:link {
+	color: #0033cc;
+	}
+
+.GroupFooterSandBeach a:visited{
+	color: #840000;
+	}
+
+.GroupFooterSandBeach a:hover, .GroupFooterSandBeach a:active{
+	color: #ff0000;
+	}
+
+.GroupFooterSandBeach img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooterSandBeach input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotalSandBeach td{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #fff6e6; 
+	color: #000000;
+	border-bottom: 2px solid #3d84cc;
+	}
+
+
+
+/*ie6*/
+* html body .SubTotalSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.SubTotalSandBeach a:link {
+	color: #0033cc;
+	}
+
+.SubTotalSandBeach a:visited{
+	color: #840000;
+	}
+
+.SubTotalSandBeach a:hover, .SubTotalSandBeach a:active{
+	color: #ff0000;
+	}
+
+.TotalSandBeach td{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #fff6e6; 
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .TotalSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.TotalSandBeach a:link {
+	color: #0033cc;
+	}
+
+.TotalSandBeach a:visited{
+	color: #840000;
+	}
+
+.TotalSandBeach a:hover, .TotalSandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Form Options */
+.ButtonSandBeach { 
+	background-color: #3d84cc; color: #ffffff; border-left: solid 1px #EDEDED; border-top: solid 1px #EDEDED; border-right: solid 1px #848284; border-bottom: solid 1px #848284; padding: 2px; font-weight: bold; font-family: Tahoma; font-size: 11px; font-weight: bold;
+	}
+
+/* Calendar */
+
+.CalendarSandBeach { 
+	border: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.CalendarWeekdayNameSandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #fff6e6; 
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekdayNameSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekdayNameSandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekdayNameSandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekdayNameSandBeach a:hover, .CalendarWeekdayNameSandBeach a:active{
+	color: #ff0000;
+	}
+
+.CalendarWeekendNameSandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #fff6e6;	
+	color: #000000;
+	font-weight: normal;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendNameSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendNameSandBeach a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendNameSandBeach a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendNameSandBeach a:link, .CalendarWeekendNameSandBeach a:visited{
+	color: #ff0000;
+	}
+
+/* Calendar Day */
+.CalendarDaySandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarDaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarDaySandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarDaySandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarDaySandBeach a:hover, .CalendarDaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekendSandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: center;
+	background-color: #fff6e6;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendSandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendSandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekendSandBeach a:hover, .CalendarWeekendSandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Today */
+.CalendarTodaySandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 0px;
+	border: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarTodaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarTodaySandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarTodaySandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarTodaySandBeach a:hover, .CalendarTodaySandBeach a:active {
+	color: #ff0000;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendTodaySandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 0px;
+	border: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #fff6e6;	
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarWeekendTodaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarWeekendTodaySandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendTodaySandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarWeekendTodaySandBeach a:hover, .CalendarWeekendTodaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDaySandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #3d84cc;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthDaySandBeach a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthDaySandBeach a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthDaySandBeach a:hover, .CalendarOtherMonthDaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthTodaySandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 0px;
+	border: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #3d84cc;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthTodaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthTodaySandBeach a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthTodaySandBeach a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthTodaySandBeach a:hover, .CalendarOtherMonthTodaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekendSandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: center;
+	background-color: #fff6e6;	
+	color: #3d84cc;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendSandBeach a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendSandBeach a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendSandBeach a:hover, .CalendarOtherMonthWeekendSandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendTodaySandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 0px;
+	border: 2px solid #3d84cc;
+	text-align: center;
+	color: #3d84cc;
+	background-color: #fff6e6;	
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendTodaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendTodaySandBeach a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendTodaySandBeach a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendTodaySandBeach a:hover, .CalendarOtherMonthWeekendTodaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDaySandBeach{
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #ffe3b0;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+
+/*ie6*/
+* html body .CalendarSelectedDaySandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarSelectedDaySandBeach a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDaySandBeach a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDaySandBeach a:hover, .CalendarSelectedDaySandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigatorSandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarNavigatorSandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarNavigatorSandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarNavigatorSandBeach a:hover, .CalendarNavigatorSandBeach a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigatorSandBeach img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigatorSandBeach td {
+	font-family: Arial; font-size: 80%;
+	}
+
+.CalendarNavigatorSandBeach th {
+	font-family: Arial; font-size: 80%;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarNavigatorSandBeach th, * html body .CalendarNavigatorSandBeach td {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEventSandBeach{
+	font-family: Arial; font-size: 80%;
+	text-align: left;
+	}
+
+
+
+/*ie6*/
+* html body .CalendarEventSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+/*end*/
+
+.CalendarEventSandBeach a:link {
+	color: #0033cc;
+	}
+
+.CalendarEventSandBeach a:visited{
+	color: #840000;
+	}
+
+.CalendarEventSandBeach a:hover, .CalendarEventSandBeach a:active{
+	color: #ff0000;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+.thSandBeach { 
+	font-family: Arial; font-size: 80%;
+	font-weight: bold;
+}
+
+
+
+/*ie6*/
+* html body .thSandBeach {
+	font-size: 100%;
+}
+/*end*/
+
+.HeaderSandBeach .thSandBeach { 
+	font-family: Arial; font-size: 110%; font-weight: bold; text-align: left;
+	padding: 2px;
+	background-image: url('Images/HeaderBg.gif'); color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .HeaderSandBeach .thSandBeach {
+	font-family: Arial; font-size: 140%; font-weight: bold; text-align: left;
+}
+/*end*/
+
+.CaptionSandBeach .thSandBeach { 
+	font-family: Arial; font-size: 80%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-image: url('Images/CaptionBg.gif'); color: #000000;
+	white-space: nowrap;
+}
+
+
+
+/*ie6*/
+* html body .CaptionSandBeach .thSandBeach {
+	font-family: Arial; font-size: 100%; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.RowSandBeach .thSandBeach { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.AltRowSandBeach .thSandBeach { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.ControlsSandBeach .thSandBeach { 
+	font-family: Arial; font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+}
+
+.GroupCaptionSandBeach .thSandBeach {
+	font-family: Arial; font-size: 80%;
+	padding: 2px;
+	border-top: 1px solid #ffe3b0; border-right: 1px solid #ffe3b0;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #fff6e6; 
+	color: #000000;
+}
+
+
+
+/*ie6*/
+* html body .GroupCaptionSandBeach .thSandBeach {
+	font-family: Arial; font-size: 100%;
+}
+
+* html body .RowSandBeach .thSandBeach, * html body .AltRowSandBeach .thSandBeach, * html body .ControlsSandBeach .thSandBeach {
+	font-family: Arial; font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenuSandBeach td {
+	font-family: Arial; font-size: 80%;
+}
+
+
+
+/*ie6*/
+* html body .simpleMenuSandBeach td {
+	font-family: Arial; font-size: 100%;
+} 
+/*end*/
+
+.SorterSandBeach img, .NavigatorSandBeach img {
+	border:0;
+}
+
+.MainTable .HeaderSandBeach img, .MainTable .HeaderSandBeach td {
+	padding-left: 0;padding-right: 0;margin:0;
+}

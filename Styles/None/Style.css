@@ -1,0 +1,228 @@
+/* CCSTheme v 3.x */
+
+.Grid { 
+	width: 100%;
+	}
+
+.Footer td { 
+	font-size: 80%;
+	padding: 3px;
+	background-color: #f7f7f7; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Footer a:link { 
+	color: #3662a5;
+	}
+
+.Footer a:visited { 
+	color: #8a8a8a;
+	}
+
+.Footer a:hover, .Footer a:active { 
+	color: #cc4141;
+	}
+
+.Footer img { border: 0px;
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Footer input {
+	vertical-align: middle;
+	}
+
+/* Calendar */
+.Calendar { 
+	width: 100%;
+	}
+
+.CalendarWeekdayName{
+	font-size: 80%;
+	padding: 3px;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #ececec; 
+	color: #000000;
+	}
+
+.CalendarWeekdayName a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekdayName a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekdayName a:hover, .CalendarWeekdayName a:active{
+	color: #cc4141;
+	}
+
+.CalendarWeekendName{
+	font-size: 80%;
+	padding: 3px;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendName a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link, .CalendarWeekendName a:visited{
+	color: #cc4141;
+	}
+
+/* Calendar Day */
+.CalendarDay{
+	font-size: 80%;
+	padding: 3px;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+.CalendarDay a:link {
+	color: #3662a5;
+	}
+
+.CalendarDay a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarDay a:hover, .CalendarDay a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekend{
+	font-size: 80%;
+	padding: 3px;
+	text-align: center;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekend a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekend a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekend a:hover, .CalendarWeekend a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Today */
+.CalendarToday {
+	font-size: 80%;
+	border: 2px solid #777777;
+	text-align: center;
+	background-color: #f7f7f7;	
+	color: #000000;
+	}
+
+.CalendarToday a:link {
+	color: #3662a5;
+	}
+
+.CalendarToday a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarToday a:hover, .CalendarToday a:active {
+	color: #cc4141;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendToday {
+	font-size: 80%;
+	border: 2px solid #777777; 
+	text-align: center;
+	background-color: #ececec;	
+	color: #000000;
+	}
+
+.CalendarWeekendToday a:link {
+	color: #3662a5;
+	}
+
+.CalendarWeekendToday a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarWeekendToday a:hover, .CalendarWeekendToday a:active{
+	color: #cc4141;
+	}
+
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDay{
+	font-size: 80%;
+	padding: 3px;
+	background-color: #d7d7d7;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.CalendarSelectedDay a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:hover, .CalendarSelectedDay a:active{
+	color: #cc4141;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigator {
+	font-size: 80%;
+	padding: 3px;
+	background-color: #f7f7f7; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.CalendarNavigator a:link {
+	color: #3662a5;
+	}
+
+.CalendarNavigator a:visited{
+	color: #8a8a8a;
+	}
+
+.CalendarNavigator a:hover, .CalendarNavigator a:active{
+	color: #cc4141;
+	}
+
+.CalendarNavigator img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+	
+.Sorter img {
+	border:0;
+}
+
+.Navigator img {
+	border:0;
+}

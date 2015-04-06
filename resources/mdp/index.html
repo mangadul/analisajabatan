@@ -1,0 +1,35 @@
+
+		<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+		<script type="text/javascript" src="jquery-ui.multidatespicker.js"></script>
+		
+
+
+		
+		<link rel="stylesheet" type="text/css" href="css/mdp.css">
+
+							<div id="with-altField"></div>
+							<input type="text" id="altField" size=100>
+				
+
+
+
+		<script type="text/javascript">
+
+
+
+			$('#with-altField').multiDatesPicker({
+				altField: '#altField',
+				dateFormat: "yy-mm-dd",
+				numberOfMonths: [1,3],
+				onSelect:function (dateText, inst) {
+					var newDate = new Date();
+					inst.drawMonth = newDate.getMonth();
+					inst.drawYear = newDate.getFullYear();
+					inst.currentMonth = newDate.getMonth();
+					inst.currentYear = newDate.getFullYear();
+				}
+			});
+		// -->
+		</script>

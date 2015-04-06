@@ -1,0 +1,313 @@
+
+html{height:101%;}
+body{background-color:#d6e4ef}
+html>body{
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    min-width:960px;
+    font-size: 68.8%; 
+    /*
+    background-color:rgb(255,255,255);
+    background:linear-gradient(top,rgb(212,214,217),rgb(255,255,255) 25%,rgb(255,255,255));
+    background:-moz-linear-gradient(top,rgb(212,214,217),rgb(255,255,255) 25%,rgb(255,255,255));
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(rgb(212,214,217)),color-stop(0.25,rgb(255,255,255)),to(rgb(255,255,255)));
+    background:-webkit-linear-gradient(rgb(212,214,217),rgb(255,255,255) 25%,rgb(255,255,255));
+    background:-o-linear-gradient(top,rgb(212,214,217),rgb(255,255,255) 25%,rgb(255,255,255));
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc',endColorstr='#ebebeb')
+*/
+/* tuneup style*/
+    background: #fff;
+    color: #084164;
+}
+body {
+	background-color: white;
+    color: #333333;
+	
+	font-size:12px;
+	line-height: 150%;
+	margin: 0px;
+}
+div.wrapper-printout {
+    overflow: visible;
+    border: solid 1px #000;
+    width: 780px;
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 13px;
+    color: #000;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+}
+table.table_datainduk {
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+table.table_datainduk thead th {
+	text-align: center;
+	background: #fff;
+	color: #000;
+	
+}
+table.table_datainduk tbody td.datainduk_isian {
+	text-align: left;
+	/*background: #fff;*/
+	color: #000;
+	font-weight: bold;
+}
+table.table_datainduk tbody td.nomor {
+	text-align: left;
+	/*background: #fff;*/
+	color: #000;
+	font-weight: bold;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 0.9em;
+    vertical-align: top;
+    
+}
+table.table_datainduk tbody td.point {
+	text-align: left;
+	/*background: #fff;*/
+	color: #000;
+	font-weight: bold;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 1.182em;
+    vertical-align: top;
+}
+table.table_datainduk tbody td.point-dua {
+	text-align: left;
+	/*background: #fff;*/
+	color: #000;
+	vertical-align: top;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 1.182em;
+    padding-left: 0px;
+}
+table.table_datainduk tbody td.point-tiga {
+	text-align: left;
+	/*background: #fff;*/
+	color: #000;
+	
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 1.182em;
+    padding-left: 18px;
+}
+table.table_datainduk tbody td.content {
+	text-align: justify;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    vertical-align: top;
+}
+table.table_datainduk tbody td.content-dua {
+	text-align: justify;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    padding-left: 28px;
+    
+}
+table.table_datainduk tbody td.content-tiga {
+	text-align: justify;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    padding-left: 48px;
+    
+}
+table.table_datainduk tbody td.content_paragraf {
+	text-align: justify;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    padding-left: 0px;
+}
+table.table_datainduk tbody td.content_paragraf_keterangan {
+	text-align: justify;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-style: italic;
+    padding-left: 0px;
+}
+table.table_datainduk tbody td.content_ttd {
+	text-align: center;
+	/*background: #fff;*/
+	color: #000;
+	font-size: 1.182em;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    vertical-align: middle;
+}
+table.table_datainduk ol {
+	margin-left: 20px;
+}
+table.table_datainduk ol.dua {
+	margin-left: 0px;
+}
+
+div.wrapper-printout fieldset {
+	margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+	border: 0px #000 solid;
+	padding: 5px;
+	text-align: left;
+    
+    
+}
+div.wrapper-printout legend    {
+	color: #000;
+	/*
+    font-size: 12px;
+	font-weight: bold;
+    border: solid 1px #000;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    */
+}
+div.wrapper-printout fieldset p {  
+    margin: 10px 10px 10px 10px;  
+    text-align: justify;    
+}
+
+div.space {
+    height: 20px;
+}
+
+/* Adminlistprint grids */
+
+table.adminlistprint {
+	width: 100%;
+	/*border-spacing: 1px;*/
+	/*background-color: #f3f3f3;*/
+	color: #666;
+}
+
+table.adminlistprint td,
+table.adminlistprint th {
+	padding: 2px;
+    
+}
+
+table.adminlistprint td {padding-left: 4px;}
+
+table.adminlistprint thead th {
+	text-align: center;
+	/*background: #f7f7f7;*/
+	/*color: #fff;*/
+    /*color: #666;*/
+	border: 1px solid #000;
+	/*border-left: 1px solid #000;*/
+    /*gonku*/
+    /*background: url(../images/blue_th.gif) repeat-x;*/
+    /*height: 22px;*/
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 0.875em;
+    padding: 2px;
+}
+
+
+
+table.adminlistprint thead th.left {
+	text-align: left;
+}
+
+table.adminlistprint thead a:hover {
+	text-decoration: none;
+}
+
+table.adminlistprint thead a {
+	text-decoration: none;
+    color: #fff;
+}
+
+table.adminlistprint thead th img {
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+table.adminlistprint tbody th {
+	/*font-weight: bold;*/
+}
+
+table.adminlistprint tbody tr {
+	/*background-color: #fff;*/
+	text-align: left;
+}
+
+table.adminlistprint tbody tr.row0:hover td,
+table.adminlistprint tbody tr.row1:hover td	{
+	background-color: #e8f6fe;
+}
+
+table.adminlistprint tbody tr td {
+	/*background: #fff;*/
+	border: 1px solid #000;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 0.875em;
+    vertical-align: top;
+    text-align: left;
+    color: black;
+}
+
+table.adminlistprint tbody tr.row1 td {
+	background: #f0f0f0;
+	border-top: 1px solid #FFF;
+}
+
+table.adminlistprint tfoot tr {
+	text-align: center;
+	color: #000;
+}
+
+table.adminlistprint tfoot td,table.adminlistprint tfoot th {
+	/*background-color: #000;*/
+	border: 1px solid #000;
+	text-align: center;
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+    font-size: 0.875em;
+}
+
+table.adminlistprint td.order {
+	text-align: center;
+	white-space: nowrap;
+	width: 200px;
+}
+
+table.adminlistprint td.order span {
+	float: left;
+	width: 20px;
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 13px;
+}
+
+table.adminlistprint .pagination {
+	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+}
+
+* {
+ margin: 0px; 
+ padding: 0px; 
+ border: none; 
+}
+h2 {
+    font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+}
+h1 {
+margin: 10px 0 5px 10px;
+font-family: 'Segoe UI',Tahoma,Helvetica,sans-serif !important;
+}
+h1 {
+margin: 0;
+padding-bottom: 8px;
+color: #025A8D;
+font-size: 1.818em;
+}

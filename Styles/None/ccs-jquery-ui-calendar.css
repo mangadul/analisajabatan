@@ -1,0 +1,91 @@
+.timepicker {
+	font-size: 16px;
+	margin: 5px 0;
+	clear: both;
+    border: 1px solid #AAA/*{borderColorContent}*/;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 5px;
+}
+.timepicker table { 
+    width: 30%;
+    width: 25%;
+    margin: 0 auto;
+}
+.timepicker td {
+	vertical-align: middle;
+	width-: 10px;
+}
+.timepicker-input[type=text] {
+	border: 1px solid #999;
+	font-size: 16px;
+	width: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.timepicker-up, .timepicker-down {
+	cursor: pointer;
+	border: 1px solid #999;
+	width: 30px;
+	height: 10px;
+}
+.timepicker-up {
+	border-bottom: 0;
+	border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+}
+.timepicker-down {
+	border-top: 0;
+	border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	/*margin-top: -2px;*/
+}
+.timepicker-up-bg, .timepicker-down-bg {
+    width: 10px;
+	height: 10px;
+	background-image: url(Images/jquery/ui-icons_default.gif);
+}
+.timepicker-up-bg {
+	background-position: 0 -18px;       
+	margin-left: 8px;
+	margin-top: -2px;
+}
+.timepicker-down-bg {
+	background-position: -64px -18px;       
+	margin-left: 7px;
+	/*margin-top: 2px;*/
+}
+
+.timepicker-ampm, .timepicker-ampm-active {
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size: 11px;
+	margin: 2px;
+	padding: 3px;
+	cursor: pointer;
+}
+    
+.timepicker-ampm {
+	border: 1px solid #abadb3;
+	background: #e6e6e6 url(Images/jquery/ui-bg_glass_75_e6e6e6_1x400.gif) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #555555;
+}
+.timepicker-ampm-active {
+	border: 1px solid #fcefa1;
+	background: #ffffff url(Images/jquery/ui-bg_glass_65_ffffff_1x400.gif) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #212121;	
+}
+.timepicker-state-hover { 
+	background: #a7a7a7 url(Images/jquery/ui-bg_glass_75_dadada_1x400.gif) 50% 50% repeat-x; font-weight: normal;
+}
+.timepicker-state-hover .timepicker-up-bg, .timepicker-state-hover .timepicker-down-bg {
+	background-image: url(Images/jquery/ui-icons_hover.gif); 
+}
+	
