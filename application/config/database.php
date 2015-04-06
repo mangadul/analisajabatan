@@ -48,11 +48,6 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-//$db['default']['hostname'] = '10.6.0.65';
-//$db['default']['username'] = 'tms';
-//$db['default']['password'] = 'admiN7101396';
-//$db['default']['database'] = 'tms2014';
-
 // local server
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
